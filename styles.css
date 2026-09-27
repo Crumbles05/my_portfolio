@@ -772,14 +772,38 @@ button {
     padding-top: 3rem;
   }
 
+  .container {
+    width: min(100% - 1.25rem, 1120px);
+  }
+
   .mini-stats,
   .skills-grid,
-  .project-grid {
+  .project-grid,
+  .certificate-grid {
     grid-template-columns: 1fr;
   }
 
   .timeline-item {
     grid-template-columns: 1fr;
+  }
+
+  .contact-card {
+    padding: 1.2rem;
+  }
+
+  .contact-list {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .contact-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+
+  .contact-value {
+    text-align: left;
   }
 
   .footer-inner {
